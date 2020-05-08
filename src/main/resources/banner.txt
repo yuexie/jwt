@@ -1,0 +1,8 @@
+${AnsiColor.BRIGHT_YELLOW}   ____   _  __  __   __   ___
+${AnsiColor.BRIGHT_YELLOW}  |_  /  | |/ /  \ \ / /  / __|
+${AnsiColor.BRIGHT_YELLOW}   / /   | ' <    \ V /  | (__
+${AnsiColor.BRIGHT_YELLOW}  /___|  |_|\_\   _|_|_   \___|
+${AnsiColor.BRIGHT_YELLOW}_|"""""|_|"""""|_| """ |_|"""""|
+${AnsiColor.BRIGHT_RED}"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
+
+ :: Spring Boot ::       (v2.1.0.RELEASE)
