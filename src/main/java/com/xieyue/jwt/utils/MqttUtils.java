@@ -53,7 +53,7 @@ public class MqttUtils {
 	}
 
 	/**
-	 * 发送消息,默认qos级别为1
+	 * 发送消息,默认qos级别为0
 	 * 
 	 * @param topic       要发送的主题
 	 * @param message     消息内容
@@ -62,7 +62,7 @@ public class MqttUtils {
 	public static void sendMessage(String topic, String message, String channelName) {
 		MqttPahoMessageHandler handler = getHandler(channelName);
 		Message<String> mqttMessage = MessageBuilder.withPayload(message).setHeader(MqttHeaders.TOPIC, topic)
-				.setHeader(MqttHeaders.QOS, QOS_1).build();
+				.setHeader(MqttHeaders.QOS, QOS_0).build();
 		handler.handleMessage(mqttMessage);
 	}
 
