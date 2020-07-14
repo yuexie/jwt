@@ -43,6 +43,7 @@ public class JwtUtil {
         JwtBuilder builder = Jwts.builder()
                 .setHeaderParam("typ", "JWT")
                 .setClaims(claims)
+                //.setPayload("this is json message")
                 .setIssuer("clientId0")
                 .setAudience("audienceName")
                 .signWith(signingKey, signatureAlgorithm);
@@ -97,14 +98,16 @@ public class JwtUtil {
 
     public static void main(String[] args) {
         Map<String, Object> claims = new HashMap<>();
-        claims.put("userId", "thisisuserId");
-        claims.put("openId", "thisisopenId");
+        claims.put("txCode",    "2001");
+        claims.put("brNo",      "10001");
+        claims.put("reqDate",   "20200420");
+        claims.put("reqTime",   "12:04:22");
 
         String result = JwtUtil.creatJWT(claims);
 
         System.out.println(result);
 
-        String jws = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ90.eyJpZCI6InVzZXJJZCIsIm5hbWUiOiJ1c2VybmFtZSIsImlzcyI6ImNsaWVudElkMCIsImF1ZCI6ImF1ZGllbmNlTmFtZSIsImV4cCI6MTU4ODU3NjI5MiwibmJmIjoxNTg4NTczNzAwfQ.RLggA1sYCc4l5yjCJcBLFjxKjk37CrAndVIWP2reJ9g";
+        String jws = "eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJ0b2tlblRpbWUiOiIyMDIwLTA1LTEzIDE0OjI4OjMzIiwidXNlcm5hbWUiOiJ4eSIsImlzcyI6ImNsaWVudElkMCIsImF1ZCI6ImF1ZGllbmNlTmFtZSIsImV4cCI6MTU4OTI2NzUwNSwibmJmIjoxNTg5MjY0OTEzfQ.jnFaVNy2hKcQGODm16l2gAYhVrayc8sdV0FFjxZ-Fg4";
 
         String parseStr = JwtUtil.parseJwt(result);
         //hCbJ3LJdHNufA88yUi3h2ZU8IPCRVk4E3J5tx9OCe4A
