@@ -1,4 +1,4 @@
-package com.xieyue.jwt.Constants;
+package com.xieyue.jwt.constants;
 
 /**
  * @program: jwt
@@ -14,4 +14,8 @@ public final class Const {
 
     //mqtt计数器
     public static int MQTT_SEND_NUM = 1;
+
+    public static String HTTP_POST = "POST";
+
+    public static String HTTP_GET = "GET";
 }
