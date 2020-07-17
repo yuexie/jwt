@@ -1,23 +1,22 @@
 package com.xieyue.jwt.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.xieyue.jwt.Constants.Const;
+import com.xieyue.jwt.base.ParamsNotNull;
+import com.xieyue.jwt.constants.Const;
 import com.xieyue.jwt.utils.*;
 import okhttp3.*;
-import org.apache.commons.lang.exception.ExceptionUtils;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
+import org.springframework.web.bind.annotation.RequestBody;
 
 /**
  * @program: jwt
@@ -31,6 +30,22 @@ public class IndexController {
 
     @Value("${app.start.time}")
     private String appStartTime;
+
+
+    @GetMapping("get")
+    public String getTestGetFunc(@ParamsNotNull String id){
+        long time_now = System.currentTimeMillis();
+        String res = getDistanceTime(Const.APP_START_TIME,time_now);
+        return res;
+    }
+
+    @PostMapping("post")
+    public String getTestPostFunc(@RequestBody @ParamsNotNull Map reqBody){
+        long time_now = System.currentTimeMillis();
+        String res = getDistanceTime(Const.APP_START_TIME,time_now);
+        return res;
+    }
+
 
     @GetMapping("time")
     public String getAppStartTime(){
@@ -81,7 +96,7 @@ public class IndexController {
         postParam.put("testKey", "objV");
         String data = JSON.toJSONString(postParam);
 
-        RequestBody requestBody = RequestBody.create(MediaType.parse("application/json; charset=utf-8"), data);
+        okhttp3.RequestBody requestBody = okhttp3.RequestBody.create(MediaType.parse("application/json; charset=utf-8"), data);
         Request request = new Request.Builder()
                 .url(httpUrl)
                 .post(requestBody)
@@ -116,7 +131,7 @@ public class IndexController {
         postParam.put("xwzsPage.GJZ", "");
         String data = JSON.toJSONString(postParam);
 
-        RequestBody requestBody = RequestBody.create(MediaType.parse("application/x-www-form-urlencoded; charset=utf-8"), data);
+        okhttp3.RequestBody requestBody = okhttp3.RequestBody.create(MediaType.parse("application/x-www-form-urlencoded; charset=utf-8"), data);
         Request request = new Request.Builder()
                 .url(httpUrl)
                 .post(requestBody)

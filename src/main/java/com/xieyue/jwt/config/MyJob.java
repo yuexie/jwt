@@ -1,16 +1,10 @@
 package com.xieyue.jwt.config;
 
-import com.xieyue.jwt.Constants.Const;
-import com.xieyue.jwt.utils.MqttUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.scheduling.annotation.Scheduled;
-
-import java.time.LocalDateTime;
-import java.util.UUID;
 
 /**
  * @program: jwt

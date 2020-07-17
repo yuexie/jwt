@@ -1,13 +1,8 @@
 package com.xieyue.jwt.config;
 
-import com.xieyue.jwt.Constants.Const;
-import org.springframework.beans.factory.annotation.Value;
+import com.xieyue.jwt.constants.Const;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 /**
  * @program: jwt

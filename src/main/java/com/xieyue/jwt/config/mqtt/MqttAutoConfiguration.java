@@ -1,5 +1,6 @@
 package com.xieyue.jwt.config.mqtt;
 
+import com.sun.javafx.scene.control.skin.VirtualFlow;
 import com.xieyue.jwt.config.mqtt.MqttProperties.Config;
 import com.xieyue.jwt.utils.MqttUtils;
 import lombok.extern.slf4j.Slf4j;
@@ -23,6 +24,10 @@ import org.springframework.integration.mqtt.outbound.MqttPahoMessageHandler;
 import org.springframework.integration.mqtt.support.DefaultPahoMessageConverter;
 import org.springframework.messaging.MessageChannel;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -51,15 +56,30 @@ public class MqttAutoConfiguration implements ApplicationContextAware {
 	 */
 	private void init(String channelName, Config config) {
 		DefaultListableBeanFactory beanFactory = (DefaultListableBeanFactory) applicationContext.getBeanFactory();
-		// 通道信息
+
+//		if(!beanFactory.containsBeanDefinition(channelName)){
+//			// 通道信息
+//			beanFactory.registerBeanDefinition(channelName, mqttChannel());
+//			log.info("初始化mqtt, channel {}, 配置 {} ", channelName, config);
+//		}
+		if(beanFactory.containsBeanDefinition(channelName)){
+			beanFactory.removeBeanDefinition(channelName);
+		}
 		beanFactory.registerBeanDefinition(channelName, mqttChannel());
 		log.info("初始化mqtt, channel {}, 配置 {} ", channelName, config);
 
+		String mqttChannelAdapterBeanName = channelName + "MqttChannelAdapter";
+		if(beanFactory.containsBeanDefinition(mqttChannelAdapterBeanName)){
+			beanFactory.removeBeanDefinition(mqttChannelAdapterBeanName);
+		}
 		MessageChannel mqttChannel = beanFactory.getBean(channelName, MessageChannel.class);
-		beanFactory.registerBeanDefinition(channelName + "MqttChannelAdapter", channelAdapter(config, mqttChannel));
+		beanFactory.registerBeanDefinition(mqttChannelAdapterBeanName, channelAdapter(config, mqttChannel));
 		log.info("初始化mqtt Channel Adapter");
 
 		String handlerBeanName = channelName + MqttUtils.CHANNEL_NAME_SUFFIX;
+		if(beanFactory.containsBeanDefinition(handlerBeanName)){
+			beanFactory.removeBeanDefinition(handlerBeanName);
+		}
 		beanFactory.registerBeanDefinition(handlerBeanName, mqttOutbound(config));
 		log.info("初始化mqtt MqttPahoMessageHandler");
 
@@ -133,5 +153,34 @@ public class MqttAutoConfiguration implements ApplicationContextAware {
 		builder.addPropertyValue("async", config.isAsync());
 
 		return builder.getBeanDefinition();
+	}
+
+	//动态为channel加入监听的topic
+	//思路：利用MqttPahoMessageDrivenChannelAdapter的addTopic()方法动态添加监听
+	public List<String> addTopics(String channelName,String [] topics){
+		List<String> topicList = new ArrayList<>();
+		if(mqttProperties.getConfig().containsKey(channelName)){
+
+			String mqttChannelAdapterBeanName = channelName + "MqttChannelAdapter";
+			DefaultListableBeanFactory beanFactory = (DefaultListableBeanFactory) applicationContext.getBeanFactory();
+			if(beanFactory.containsBeanDefinition(mqttChannelAdapterBeanName)){
+				MqttPahoMessageDrivenChannelAdapter mqttChannelAdapter = beanFactory.getBean(mqttChannelAdapterBeanName,
+																				MqttPahoMessageDrivenChannelAdapter.class);
+				List<String> oldTopicList = Arrays.asList(mqttChannelAdapter.getTopic());
+				for(String str:topics){
+					if(!oldTopicList.contains(str)){
+						topicList.add(str);
+					}
+				}
+				//添加新topic的监听
+				topicList.forEach(item -> {
+					mqttChannelAdapter.addTopic(item,0);
+				});
+
+				//将之前的topic加入列表
+				topicList.addAll(oldTopicList);
+			}
+		}
+		return topicList;
 	}
 }
