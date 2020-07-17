@@ -219,3 +219,985 @@
 2020-07-17 00:31:02.887 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
 2020-07-17 00:31:02.887 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
 2020-07-17 00:31:02.887 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 14:11:27.178 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 10028 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:11:27.200 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:11:29.872 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-17 14:14:05.370 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 13508 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:14:05.386 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:14:06.901 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-17 14:15:49.772 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 12056 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:15:49.785 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:15:53.073 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 14:15:53.109 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 14:15:53.124 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 14:15:53.519 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:15:53.564 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:15:53.569 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:15:54.351 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 14:15:54.379 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:15:54.382 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 14:15:54.384 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 14:15:54.389 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 14:15:54.390 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 14:15:54.391 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 14:15:54.392 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 14:15:55.663 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 14:15:55.932 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 14:15:55.933 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5947 ms
+2020-07-17 14:15:56.317 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:15:56.329 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:15:56.401 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 14:15:56.600 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:15:56.603 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:15:56.702 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 14:15:56.704 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:15:56.705 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:15:56.871 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 14:15:56.957 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:15:57.053 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:15:58.345 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:15:58.346 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 14:15:58.346 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:15:58.347 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:15:58.347 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 14:15:58.347 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:15:58.347 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:15:58.348 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 14:15:58.348 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:15:58.348 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:15:58.348 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:15:58.349 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:15:58.349 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 14:15:58.883 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 14:15:59.315 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 14:15:59.315 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 14:15:59.316 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:15:59.316 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 14:15:59.330 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:15:59.370 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 14:15:59.375 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 13.77 seconds (JVM running for 19.083)
+2020-07-17 14:15:59.458 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 14:15:59.473 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "312017329", "time": "1594966559", "rtime": "1594966559", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:16:02.025 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030016，QOS:0，数据：{ "imei": "gw010100030016", "msgType": 1, "gwType": 2, "time": "1594966562" }
+2020-07-17 14:16:02.246 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030021_240_10", "time": "1594966562", "rtime": "1594966562", "data": { "rt": "1", "gz": "280" } }
+2020-07-17 14:16:05.840 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 1, "gwType": 2, "time": "1594966566" }
+2020-07-17 14:16:17.848 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw030100030003，QOS:0，数据：{ "imei": "gw030100030003", "msgType": 1, "gwType": 3, "time": "1594966578" }
+2020-07-17 14:16:19.037 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 1, "gwType": 2, "time": "1594966579" }
+2020-07-17 14:16:23.784 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966584", "rtime": "1594966584", "data": { "rt": "1", "gz": "147" } }
+2020-07-17 14:16:23.829 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "1860108465", "time": "1594966584", "rtime": "1594966584", "devType": 7, "data": { "sw1": "1" } }
+2020-07-17 14:16:23.830 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "312017329", "time": "1594966584", "rtime": "1594966584", "devType": 7, "data": { "sw1": "1" } }
+2020-07-17 14:16:25.332 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966585", "rtime": "1594966585", "data": { "rt": "0", "gz": "347" } }
+2020-07-17 14:16:30.546 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw030100030001，QOS:0，数据：{ "imei": "gw030100030001", "msgType": 1, "gwType": 3, "time": "1594966590" }
+2020-07-17 14:16:31.904 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030021_240_10", "time": "1594966592", "rtime": "1594966592", "data": { "rt": "1", "gz": "274" } }
+2020-07-17 14:16:40.407 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030021_240_10", "time": "1594966600", "rtime": "1594966600", "data": { "rt": "1", "gz": "272" } }
+2020-07-17 14:16:42.991 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "1860108465", "time": "1594966603", "rtime": "1594966603", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:16:43.615 [MQTT Call: zkyc_tech_channel2_f645bbdab7594f09a25afa3bc7713720] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "312017329", "time": "1594966603", "rtime": "1594966603", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:16:47.549 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 14:16:47.549 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:16:47.550 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 14:19:32.288 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 13724 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:19:32.304 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:19:37.360 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 14:19:37.393 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 14:19:37.415 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 14:19:37.875 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:19:37.930 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:19:37.938 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:19:39.132 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 14:19:39.177 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:19:39.180 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 14:19:39.181 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 14:19:39.191 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 14:19:39.192 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 14:19:39.193 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 14:19:39.194 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 14:19:40.423 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 14:19:41.026 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 14:19:41.028 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8511 ms
+2020-07-17 14:19:41.497 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:19:41.513 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:19:41.610 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 14:19:41.972 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:19:41.979 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:19:42.146 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 14:19:42.149 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:19:42.151 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:19:42.334 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 14:19:42.475 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:19:42.663 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:19:45.285 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:19:45.287 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 14:19:45.287 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:19:45.288 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:19:45.289 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 14:19:45.289 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:19:45.289 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:19:45.290 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 14:19:45.290 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:19:45.291 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:19:45.291 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:19:45.292 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:19:45.292 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 14:19:45.887 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 14:19:46.328 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 14:19:46.329 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 14:19:46.330 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:19:46.331 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 14:19:46.380 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:19:46.489 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 14:19:46.502 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 18.167 seconds (JVM running for 24.931)
+2020-07-17 14:19:48.272 [MQTT Call: zkyc_tech_channel2_dd7c62af4aee4a31b9b271c7fc437e4b] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 14:19:48.335 [MQTT Call: zkyc_tech_channel2_dd7c62af4aee4a31b9b271c7fc437e4b] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966788", "rtime": "1594966788", "data": { "rt": "1", "gz": "336" } }
+2020-07-17 14:19:49.061 [MQTT Call: zkyc_tech_channel2_dd7c62af4aee4a31b9b271c7fc437e4b] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966789", "rtime": "1594966789", "data": { "rt": "0", "gz": "335" } }
+2020-07-17 14:19:50.318 [MQTT Call: zkyc_tech_channel2_dd7c62af4aee4a31b9b271c7fc437e4b] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966790", "rtime": "1594966790", "data": { "rt": "1", "gz": "336" } }
+2020-07-17 14:19:54.451 [MQTT Call: zkyc_tech_channel2_dd7c62af4aee4a31b9b271c7fc437e4b] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966794", "rtime": "1594966794", "data": { "rt": "0", "gz": "338" } }
+2020-07-17 14:19:54.895 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 14:19:54.895 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:19:54.896 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 14:22:16.034 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 4020 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:22:16.045 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:22:20.542 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 14:22:20.566 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 14:22:20.577 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 14:22:20.862 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:22:20.893 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:22:20.898 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:22:21.658 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 14:22:21.696 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:22:21.700 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 14:22:21.701 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 14:22:21.714 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 14:22:21.715 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 14:22:21.716 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 14:22:21.717 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 14:22:22.877 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 14:22:23.106 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 14:22:23.106 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6904 ms
+2020-07-17 14:22:23.310 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:22:23.317 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:22:23.359 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 14:22:23.478 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:22:23.481 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:22:23.554 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 14:22:23.556 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:22:23.556 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:22:23.664 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 14:22:23.720 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:22:23.943 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:22:25.434 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:22:25.436 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 14:22:25.436 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:22:25.437 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:22:25.437 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 14:22:25.438 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:22:25.438 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:22:25.438 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 14:22:25.438 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:22:25.439 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:22:25.439 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:22:25.439 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:22:25.440 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 14:22:26.014 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 14:22:26.506 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 14:22:26.507 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 14:22:26.507 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:22:26.508 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 14:22:26.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:22:26.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 14:22:26.585 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 13.745 seconds (JVM running for 18.758)
+2020-07-17 14:22:27.537 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 14:22:27.560 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "msgid": "f4e8d547-f176-44e7-8dbb-f52d068ad7f7", "stat": 2, "msgType": 15, "cmdType": 10, "time": "1594966947" }
+2020-07-17 14:22:30.044 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030016，QOS:0，数据：{ "imei": "gw010100030016", "msgType": 4, "gwType": 2, "devAddr": "333512881", "time": "1594966950", "rtime": "1594966950", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:22:30.183 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030016，QOS:0，数据：{ "imei": "gw010100030016", "msgType": 4, "gwType": 2, "devAddr": "366936241", "time": "1594966950", "rtime": "1594966950", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:22:30.546 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw030100030001，QOS:0，数据：{ "imei": "gw030100030001", "msgType": 1, "gwType": 3, "time": "1594966950" }
+2020-07-17 14:22:33.196 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966953", "rtime": "1594966953", "data": { "rt": "1", "gz": "146" } }
+2020-07-17 14:22:33.232 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "1860108465", "time": "1594966953", "rtime": "1594966953", "devType": 7, "data": { "sw1": "1" } }
+2020-07-17 14:22:33.233 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966953", "rtime": "1594966953", "data": { "rt": "0", "gz": "163" } }
+2020-07-17 14:22:33.234 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "312017329", "time": "1594966953", "rtime": "1594966953", "devType": 7, "data": { "sw1": "1" } }
+2020-07-17 14:22:34.209 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966954", "rtime": "1594966954", "data": { "rt": "1", "gz": "341" } }
+2020-07-17 14:22:38.368 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966958", "rtime": "1594966958", "data": { "rt": "0", "gz": "338" } }
+2020-07-17 14:22:39.849 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966960", "rtime": "1594966960", "data": { "rt": "1", "gz": "339" } }
+2020-07-17 14:22:40.041 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030016，QOS:0，数据：{ "imei": "gw010100030016", "msgType": 4, "gwType": 2, "devAddr": "333512881", "time": "1594966960", "rtime": "1594966960", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:22:40.141 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030016，QOS:0，数据：{ "imei": "gw010100030016", "msgType": 4, "gwType": 2, "devAddr": "366936241", "time": "1594966960", "rtime": "1594966960", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:22:41.361 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030021_240_10", "time": "1594966961", "rtime": "1594966961", "data": { "rt": "1", "gz": "243" } }
+2020-07-17 14:22:43.990 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966964", "rtime": "1594966964", "data": { "rt": "0", "gz": "341" } }
+2020-07-17 14:22:45.534 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966965", "rtime": "1594966965", "data": { "rt": "1", "gz": "341" } }
+2020-07-17 14:22:48.759 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "1860108465", "time": "1594966969", "rtime": "1594966969", "devType": 7, "data": { "sw1": "1" } }
+2020-07-17 14:22:48.769 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "312017329", "time": "1594966969", "rtime": "1594966969", "devType": 7, "data": { "sw1": "1" } }
+2020-07-17 14:22:49.657 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594966969", "rtime": "1594966969", "data": { "rt": "0", "gz": "342" } }
+2020-07-17 14:23:02.057 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030016，QOS:0，数据：{ "imei": "gw010100030016", "msgType": 1, "gwType": 2, "time": "1594966982" }
+2020-07-17 14:23:04.770 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "1860108465", "time": "1594966985", "rtime": "1594966985", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:23:05.374 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "312017329", "time": "1594966985", "rtime": "1594966985", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:23:05.827 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 1, "gwType": 2, "time": "1594966986" }
+2020-07-17 14:23:10.017 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw030100030003，QOS:0，数据：{ "imei": "gw030100030003", "msgType": 4, "gwType": 3, "devAddr": "21042", "time": "1594966990", "rtime": "1594966990", "devType": 1, "data": { "sw1": "1", "sw2": "1", "ld1": "90", "ld2": "90", "gz": "257", "rt": "1" } }
+2020-07-17 14:23:17.866 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw030100030003，QOS:0，数据：{ "imei": "gw030100030003", "msgType": 1, "gwType": 3, "time": "1594966998" }
+2020-07-17 14:23:18.758 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "1860108465", "time": "1594966999", "rtime": "1594966999", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:23:18.768 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "312017329", "time": "1594966999", "rtime": "1594966999", "devType": 7, "data": { "sw1": "0" } }
+2020-07-17 14:23:19.038 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 1, "gwType": 2, "time": "1594966999" }
+2020-07-17 14:23:22.707 [http-nio-8010-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 14:23:22.708 [http-nio-8010-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 14:23:22.731 [http-nio-8010-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2020-07-17 14:23:29.212 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2020-07-17 14:23:32.243 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw030100030001，QOS:0，数据：{ "imei": "gw030100030001", "msgType": 1, "gwType": 3, "time": "1594967010" }
+2020-07-17 14:23:39.765 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw030100030001，QOS:0，数据：{ "imei": "gw030100030001", "msgType": 4, "gwType": 3, "devAddr": "55238", "time": "1594967020", "rtime": "1594967020", "devType": 1, "data": { "sw1": "0", "sw2": "0", "ld1": "100", "ld2": "100", "gz": "418", "rt": "0" } }
+2020-07-17 14:23:41.209 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030021_240_10", "time": "1594967021", "rtime": "1594967021", "data": { "rt": "0", "gz": "232" } }
+2020-07-17 14:23:41.261 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030021_240_10", "time": "1594967021", "rtime": "1594967021", "data": { "rt": "0", "gz": "0" } }
+2020-07-17 14:23:57.987 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594967038", "rtime": "1594967038", "data": { "rt": "1", "gz": "147" } }
+2020-07-17 14:23:58.048 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "1860108465", "time": "1594967038", "rtime": "1594967038", "devType": 7, "data": { "sw1": "1" } }
+2020-07-17 14:23:58.072 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594967038", "rtime": "1594967038", "data": { "rt": "0", "gz": "164" } }
+2020-07-17 14:23:58.073 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devAddr": "312017329", "time": "1594967038", "rtime": "1594967038", "devType": 7, "data": { "sw1": "1" } }
+2020-07-17 14:24:02.038 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030016，QOS:0，数据：{ "imei": "gw010100030016", "msgType": 1, "gwType": 2, "time": "1594967042" }
+2020-07-17 14:24:02.563 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594967042", "rtime": "1594967042", "data": { "rt": "1", "gz": "341" } }
+2020-07-17 14:24:03.100 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594967043", "rtime": "1594967043", "data": { "rt": "0", "gz": "343" } }
+2020-07-17 14:24:04.652 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594967044", "rtime": "1594967044", "data": { "rt": "1", "gz": "340" } }
+2020-07-17 14:24:05.835 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030021，QOS:0，数据：{ "imei": "gw010100030021", "msgType": 1, "gwType": 2, "time": "1594967046" }
+2020-07-17 14:24:08.789 [MQTT Call: zkyc_tech_channel2_91cc76c783d04cfaa3ee98b57b393f77] INFO  com.xieyue.jwt.mqtt.handler.Mqtt2MessageHandler - [ channel2 ] 主题：/szdx/device/out/gw010100030020，QOS:0，数据：{ "imei": "gw010100030020", "msgType": 4, "gwType": 2, "devType": 10, "devAddr": "010100030020_240_10", "time": "1594967049", "rtime": "1594967049", "data": { "rt": "0", "gz": "340" } }
+2020-07-17 14:24:09.552 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 14:24:09.552 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:24:09.553 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 14:24:14.607 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel1MqttChannelAdapter'
+2020-07-17 14:24:19.654 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel2MqttChannelAdapter'
+2020-07-17 14:24:19.655 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:24:19.655 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:24:19.655 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:24:19.656 [SpringContextShutdownHook] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - stopped bean 'mqttGateway'
+2020-07-17 14:24:19.656 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:24:19.656 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-07-17 14:24:19.656 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:24:19.656 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:24:19.657 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 0 subscriber(s).
+2020-07-17 14:24:19.657 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:24:19.657 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:24:19.657 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 0 subscriber(s).
+2020-07-17 14:24:19.657 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:24:19.660 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:24:19.661 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:24:19.661 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-07-17 14:24:19.662 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:24:19.663 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:25:00.503 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 11540 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:25:00.526 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:25:04.048 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 14:25:04.072 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 14:25:04.085 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 14:25:04.350 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:25:04.377 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:25:04.381 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:25:04.931 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 14:25:04.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:25:04.950 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 14:25:04.950 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 14:25:04.955 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 14:25:04.955 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 14:25:04.956 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 14:25:04.956 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 14:25:06.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 14:25:06.305 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 14:25:06.306 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5471 ms
+2020-07-17 14:25:06.510 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:25:06.518 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:25:06.562 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 14:25:06.685 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:25:06.687 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:25:06.754 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 14:25:06.756 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:25:06.756 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:25:06.856 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 14:25:06.910 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:25:07.087 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:25:08.229 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:25:08.230 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 14:25:08.230 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:25:08.230 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:25:08.231 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 14:25:08.232 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:25:08.232 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:25:08.232 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 14:25:08.232 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:25:08.233 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:25:08.233 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:25:08.233 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:25:08.233 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 14:25:08.790 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 14:25:09.240 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 14:25:09.241 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 14:25:09.241 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:25:09.241 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 14:25:09.258 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:25:09.293 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 14:25:09.297 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 12.353 seconds (JVM running for 19.036)
+2020-07-17 14:25:14.431 [MQTT Call: zkyc_tech_channel2_a998ac0f53ec4ea4a7a1d3251ac6e529] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 14:25:21.186 [http-nio-8010-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 14:25:21.187 [http-nio-8010-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 14:25:21.207 [http-nio-8010-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-07-17 14:25:43.171 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 14:25:43.172 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:25:43.172 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 14:26:40.025 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 15348 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:26:40.157 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:26:43.516 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 14:26:43.541 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 14:26:43.552 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 14:26:43.792 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:26:43.817 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:26:43.821 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:26:44.359 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 14:26:44.386 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:26:44.388 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 14:26:44.388 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 14:26:44.392 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 14:26:44.393 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 14:26:44.394 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 14:26:44.394 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 14:26:45.531 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 14:26:45.790 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 14:26:45.791 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5376 ms
+2020-07-17 14:26:46.029 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:26:46.038 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:26:46.088 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 14:26:46.214 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:26:46.217 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:26:46.279 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 14:26:46.280 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:26:46.281 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:26:46.373 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 14:26:46.424 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:26:46.490 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:26:47.970 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:26:47.971 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 14:26:47.971 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:26:47.972 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:26:47.972 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 14:26:47.972 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:26:47.972 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:26:47.973 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 14:26:47.973 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:26:47.973 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:26:47.973 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:26:47.973 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:26:47.974 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 14:26:48.501 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 14:26:48.951 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 14:26:48.952 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 14:26:48.952 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:26:48.952 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 14:26:48.969 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:26:49.005 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 14:26:49.010 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 11.611 seconds (JVM running for 16.083)
+2020-07-17 14:26:56.250 [MQTT Call: zkyc_tech_channel2_7dc7b8c1bc2b4969864ac628a1e47e4e] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 14:27:00.910 [http-nio-8010-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 14:27:00.911 [http-nio-8010-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 14:27:00.938 [http-nio-8010-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 26 ms
+2020-07-17 14:29:57.537 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2020-07-17 14:31:55.933 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 14:31:55.933 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:31:55.933 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 14:32:00.986 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel1MqttChannelAdapter'
+2020-07-17 14:32:06.033 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel2MqttChannelAdapter'
+2020-07-17 14:32:06.033 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:32:06.033 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:32:06.033 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:32:06.034 [SpringContextShutdownHook] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - stopped bean 'mqttGateway'
+2020-07-17 14:32:06.034 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:32:06.034 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-07-17 14:32:06.034 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:32:06.034 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:32:06.035 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 0 subscriber(s).
+2020-07-17 14:32:06.035 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:32:06.035 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:32:06.036 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 0 subscriber(s).
+2020-07-17 14:32:06.036 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:32:06.039 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:32:06.039 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:32:06.039 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-07-17 14:32:06.041 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:32:06.041 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:32:24.696 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 2100 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:32:24.708 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:32:27.900 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 14:32:27.921 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 14:32:27.931 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 14:32:28.185 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:32:28.213 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:32:28.217 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:32:29.034 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 14:32:29.059 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:32:29.061 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 14:32:29.062 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 14:32:29.068 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 14:32:29.069 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 14:32:29.070 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 14:32:29.070 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 14:32:30.398 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 14:32:31.127 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 14:32:31.128 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6252 ms
+2020-07-17 14:32:31.787 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:32:31.805 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:32:31.945 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 14:32:32.246 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:32:32.250 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:32:32.386 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 14:32:32.390 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:32:32.391 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:32:32.592 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 14:32:32.680 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:32:32.968 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:32:34.485 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:32:34.485 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 14:32:34.486 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:32:34.486 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:32:34.486 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 14:32:34.486 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:32:34.487 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:32:34.487 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 14:32:34.487 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:32:34.487 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:32:34.487 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:32:34.488 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:32:34.488 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 14:32:35.032 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 14:32:35.479 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 14:32:35.480 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 14:32:35.480 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:32:35.481 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 14:32:35.498 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:32:35.535 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 14:32:35.540 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 13.848 seconds (JVM running for 19.017)
+2020-07-17 14:32:37.473 [MQTT Call: zkyc_tech_channel2_6efa42db2aea4a5f967117c5eecde88a] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 14:32:48.015 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 14:32:48.016 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:32:48.016 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 14:32:53.066 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel1MqttChannelAdapter'
+2020-07-17 14:32:58.116 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel2MqttChannelAdapter'
+2020-07-17 14:32:58.117 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:32:58.117 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:32:58.117 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:32:58.117 [SpringContextShutdownHook] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - stopped bean 'mqttGateway'
+2020-07-17 14:32:58.117 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:32:58.117 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-07-17 14:32:58.117 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:32:58.117 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:32:58.118 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 0 subscriber(s).
+2020-07-17 14:32:58.118 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:32:58.118 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:32:58.118 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 0 subscriber(s).
+2020-07-17 14:32:58.118 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:32:58.120 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:32:58.120 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:32:58.120 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-07-17 14:32:58.121 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:32:58.121 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:33:14.123 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 8308 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:33:14.139 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:33:17.013 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 14:33:17.035 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 14:33:17.050 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 14:33:17.297 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:33:17.320 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:33:17.324 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:33:17.849 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 14:33:17.866 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:33:17.867 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 14:33:17.867 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 14:33:17.870 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 14:33:17.870 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 14:33:17.871 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 14:33:17.871 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 14:33:18.992 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 14:33:19.178 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 14:33:19.180 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4770 ms
+2020-07-17 14:33:19.375 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:33:19.382 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:33:19.423 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 14:33:19.544 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:33:19.547 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:33:19.617 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 14:33:19.619 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:33:19.620 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:33:19.721 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 14:33:19.772 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:33:19.963 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:33:21.168 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:33:21.169 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 14:33:21.170 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:33:21.170 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:33:21.170 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 14:33:21.170 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:33:21.171 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:33:21.171 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 14:33:21.171 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:33:21.171 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:33:21.172 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:33:21.172 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:33:21.172 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 14:33:21.725 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 14:33:22.171 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 14:33:22.172 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 14:33:22.173 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:33:22.173 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 14:33:22.193 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:33:22.222 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 14:33:22.226 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 11.3 seconds (JVM running for 15.746)
+2020-07-17 14:33:25.741 [MQTT Call: zkyc_tech_channel2_c62a87f48cf942428f473498ae18dbdb] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 14:34:19.959 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2020-07-17 14:36:03.535 [http-nio-8010-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 14:36:03.535 [http-nio-8010-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 14:36:03.544 [http-nio-8010-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-07-17 14:39:01.552 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 14:39:01.552 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:39:01.552 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 14:39:06.605 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel1MqttChannelAdapter'
+2020-07-17 14:39:11.700 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel2MqttChannelAdapter'
+2020-07-17 14:39:11.700 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:39:11.701 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:39:11.701 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 14:39:11.701 [SpringContextShutdownHook] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - stopped bean 'mqttGateway'
+2020-07-17 14:39:11.701 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:39:11.701 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-07-17 14:39:11.703 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:39:11.703 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:39:11.703 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 0 subscriber(s).
+2020-07-17 14:39:11.703 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:39:11.704 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:39:11.704 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 0 subscriber(s).
+2020-07-17 14:39:11.704 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:39:11.709 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:39:11.710 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:39:11.710 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-07-17 14:39:11.711 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:39:11.711 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:39:32.830 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 13040 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 14:39:32.846 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 14:39:36.462 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 14:39:36.538 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 14:39:36.669 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 14:39:37.176 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:39:37.226 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:39:37.237 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 14:39:38.376 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 14:39:38.403 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:39:38.405 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 14:39:38.406 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 14:39:38.410 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 14:39:38.411 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 14:39:38.411 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 14:39:38.412 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 14:39:39.642 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 14:39:39.995 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 14:39:39.995 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6944 ms
+2020-07-17 14:39:40.654 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 14:39:40.675 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 14:39:40.786 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 14:39:41.008 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:39:41.012 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:39:41.120 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 14:39:41.122 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 14:39:41.123 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 14:39:41.300 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 14:39:41.411 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 14:39:41.701 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 14:39:42.953 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 14:39:42.953 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 14:39:42.954 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 14:39:42.954 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 14:39:42.954 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 14:39:42.954 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:39:42.954 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 14:39:42.955 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 14:39:42.955 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 14:39:42.955 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:39:42.955 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:39:42.955 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 14:39:42.956 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 14:39:43.773 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 14:39:44.276 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 14:39:44.276 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 14:39:44.276 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 14:39:44.276 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 14:39:44.290 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 14:39:44.317 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 14:39:44.322 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 14.757 seconds (JVM running for 19.596)
+2020-07-17 14:39:47.722 [MQTT Call: zkyc_tech_channel2_0d0e09171ccb4f6799d3430ed740f3b9] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 14:40:41.696 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2020-07-17 14:50:50.738 [http-nio-8010-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 14:50:50.740 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 14:50:50.785 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 42 ms
+2020-07-17 15:10:41.698 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2020-07-17 15:34:07.550 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 15:34:07.553 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 15:34:07.555 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 15:34:42.226 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 12216 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 15:34:42.241 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 15:34:46.652 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 15:34:46.681 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 15:34:46.695 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 15:34:47.017 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 15:34:47.055 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 15:34:47.062 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 15:34:47.862 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 15:34:47.888 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 15:34:47.890 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 15:34:47.891 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 15:34:47.896 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 15:34:47.897 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 15:34:47.897 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 15:34:47.898 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 15:34:49.134 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 15:34:49.619 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 15:34:49.619 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7096 ms
+2020-07-17 15:34:50.086 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 15:34:50.098 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 15:34:50.200 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 15:34:50.454 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 15:34:50.460 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 15:34:50.586 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 15:34:50.588 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 15:34:50.590 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 15:34:50.767 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 15:34:50.855 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 15:34:51.102 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 15:34:52.545 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 15:34:52.546 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 15:34:52.547 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 15:34:52.547 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 15:34:52.548 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 15:34:52.548 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 15:34:52.548 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 15:34:52.549 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 15:34:52.549 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 15:34:52.549 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 15:34:52.549 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 15:34:52.550 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 15:34:52.550 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 15:34:53.112 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 15:34:53.581 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 15:34:53.581 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 15:34:53.582 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 15:34:53.582 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 15:34:53.606 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 15:34:53.667 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 15:34:53.675 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 15.68 seconds (JVM running for 23.959)
+2020-07-17 15:34:57.146 [MQTT Call: zkyc_tech_channel2_0d06ed94a792455885caa6e91de3bcf3] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 15:35:50.964 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2020-07-17 15:36:52.119 [http-nio-8010-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 15:36:52.119 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 15:36:52.140 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-07-17 16:05:50.965 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2020-07-17 16:18:50.514 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 16:18:50.515 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 16:18:50.515 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 16:18:55.564 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel1MqttChannelAdapter'
+2020-07-17 16:19:00.614 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel2MqttChannelAdapter'
+2020-07-17 16:19:00.615 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:19:00.616 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:19:00.616 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:19:00.616 [SpringContextShutdownHook] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - stopped bean 'mqttGateway'
+2020-07-17 16:19:00.617 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 16:19:00.618 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-07-17 16:19:00.618 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-07-17 16:19:00.619 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 16:19:00.620 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 0 subscriber(s).
+2020-07-17 16:19:00.620 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:19:00.621 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 16:19:00.622 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 0 subscriber(s).
+2020-07-17 16:19:00.623 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:19:00.629 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-17 16:19:00.630 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 16:19:00.630 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-07-17 16:19:00.630 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 16:19:00.630 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 16:19:22.118 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 15980 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 16:19:22.137 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 16:19:25.218 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 16:19:25.241 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 16:19:25.256 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 16:19:25.510 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:19:25.537 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:19:25.542 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:19:26.397 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 16:19:26.432 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 16:19:26.435 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 16:19:26.436 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 16:19:26.445 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 16:19:26.446 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 16:19:26.446 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 16:19:26.447 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 16:19:27.638 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 16:19:27.972 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 16:19:27.972 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5622 ms
+2020-07-17 16:19:28.348 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 16:19:28.361 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 16:19:28.455 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 16:19:28.701 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 16:19:28.705 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 16:19:28.810 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 16:19:28.812 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 16:19:28.813 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 16:19:29.004 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 16:19:29.111 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 16:19:29.497 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 16:19:31.265 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 16:19:31.266 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 16:19:31.267 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 16:19:31.267 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 16:19:31.268 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 16:19:31.268 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:19:31.269 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 16:19:31.269 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 16:19:31.269 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:19:31.270 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:19:31.270 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:19:31.270 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:19:31.271 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 16:19:31.815 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 16:19:32.284 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 16:19:32.285 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 16:19:32.286 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 16:19:32.286 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 16:19:32.308 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 16:19:32.331 [MQTT Call: zkyc_tech_channel2_6ba98da9f41f4775aeb96bbe630a1b92] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 16:19:32.352 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 16:19:32.358 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 13.255 seconds (JVM running for 17.473)
+2020-07-17 16:19:42.373 [http-nio-8010-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 16:19:42.374 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 16:19:42.399 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2020-07-17 16:20:29.490 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2020-07-17 16:20:41.280 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 16:20:41.281 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 16:20:41.281 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 16:20:46.331 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel1MqttChannelAdapter'
+2020-07-17 16:20:51.384 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel2MqttChannelAdapter'
+2020-07-17 16:20:51.384 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:20:51.384 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:20:51.384 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:20:51.385 [SpringContextShutdownHook] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - stopped bean 'mqttGateway'
+2020-07-17 16:20:51.385 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 16:20:51.385 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-07-17 16:20:51.385 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-07-17 16:20:51.385 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 16:20:51.386 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 0 subscriber(s).
+2020-07-17 16:20:51.386 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:20:51.386 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 16:20:51.386 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 0 subscriber(s).
+2020-07-17 16:20:51.386 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:20:51.389 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-17 16:20:51.389 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 16:20:51.390 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-07-17 16:20:51.391 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 16:20:51.391 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 16:21:49.076 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 12024 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 16:21:49.089 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 16:21:52.484 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 16:21:52.505 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 16:21:52.517 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 16:21:52.761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:21:52.784 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:21:52.788 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:21:53.369 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 16:21:53.389 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 16:21:53.391 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 16:21:53.391 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 16:21:53.397 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 16:21:53.398 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 16:21:53.399 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 16:21:53.400 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 16:21:54.540 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 16:21:54.761 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 16:21:54.762 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5526 ms
+2020-07-17 16:21:54.960 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 16:21:54.967 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 16:21:55.008 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 16:21:55.130 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 16:21:55.132 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 16:21:55.201 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 16:21:55.203 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 16:21:55.203 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 16:21:55.310 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 16:21:55.369 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 16:21:55.594 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 16:21:56.883 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 16:21:56.883 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 16:21:56.884 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 16:21:56.884 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 16:21:56.884 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 16:21:56.884 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:21:56.885 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 16:21:56.885 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 16:21:56.886 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:21:56.886 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:21:56.886 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:21:56.887 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:21:56.887 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 16:21:57.406 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 16:21:57.855 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 16:21:57.856 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 16:21:57.856 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 16:21:57.857 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 16:21:57.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 16:21:57.909 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 16:21:57.913 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 12.027 seconds (JVM running for 16.185)
+2020-07-17 16:21:59.989 [MQTT Call: zkyc_tech_channel2_66a1126e9a854d2b81672e55e1093f0a] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 16:22:04.458 [http-nio-8010-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 16:22:04.463 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 16:22:04.528 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 64 ms
+2020-07-17 16:22:55.590 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2020-07-17 16:37:59.675 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 16:37:59.676 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 16:37:59.676 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 16:38:04.732 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel1MqttChannelAdapter'
+2020-07-17 16:38:09.779 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel2MqttChannelAdapter'
+2020-07-17 16:38:09.779 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:38:09.779 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:38:09.779 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:38:09.779 [SpringContextShutdownHook] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - stopped bean 'mqttGateway'
+2020-07-17 16:38:09.779 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 16:38:09.780 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-07-17 16:38:09.780 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-07-17 16:38:09.780 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 16:38:09.780 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 0 subscriber(s).
+2020-07-17 16:38:09.781 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:38:09.781 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 16:38:09.781 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 0 subscriber(s).
+2020-07-17 16:38:09.781 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:38:09.783 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-17 16:38:09.783 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 16:38:09.784 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-07-17 16:38:09.784 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 16:38:09.784 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 16:38:35.060 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 13256 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 16:38:35.074 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 16:38:37.838 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 16:38:37.857 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 16:38:37.866 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 16:38:38.073 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:38:38.096 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:38:38.099 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:38:38.784 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 16:38:38.807 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 16:38:38.809 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 16:38:38.809 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 16:38:38.814 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 16:38:38.815 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 16:38:38.816 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 16:38:38.816 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 16:38:39.949 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 16:38:40.159 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 16:38:40.160 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4855 ms
+2020-07-17 16:38:40.433 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 16:38:40.442 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 16:38:40.486 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 16:38:40.618 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 16:38:40.620 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 16:38:40.690 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 16:38:40.692 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 16:38:40.693 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 16:38:40.823 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 16:38:40.914 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 16:38:41.203 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 16:38:42.470 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 16:38:42.471 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 16:38:42.472 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 16:38:42.473 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 16:38:42.473 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 16:38:42.473 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:38:42.474 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 16:38:42.474 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 16:38:42.475 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:38:42.475 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:38:42.476 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:38:42.476 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:38:42.477 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 16:38:43.028 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 16:38:43.545 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 16:38:43.546 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 16:38:43.547 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 16:38:43.548 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 16:38:43.571 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 16:38:43.604 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 16:38:43.609 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 11.651 seconds (JVM running for 16.657)
+2020-07-17 16:38:47.628 [MQTT Call: zkyc_tech_channel2_2139392d885f43b692086e339879b9ee] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 16:38:50.427 [http-nio-8010-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 16:38:50.428 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 16:38:50.449 [http-nio-8010-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2020-07-17 16:39:13.594 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2020-07-17 16:39:13.594 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 16:39:13.594 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2020-07-17 16:39:18.671 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel1MqttChannelAdapter'
+2020-07-17 16:39:23.716 [SpringContextShutdownHook] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - stopped bean 'channel2MqttChannelAdapter'
+2020-07-17 16:39:23.717 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:39:23.717 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:39:23.717 [SpringContextShutdownHook] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - stopped bean 'mqttGateway'
+2020-07-17 16:39:23.717 [SpringContextShutdownHook] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - stopped bean 'mqttGateway'
+2020-07-17 16:39:23.717 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 16:39:23.718 [SpringContextShutdownHook] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 0 subscriber(s).
+2020-07-17 16:39:23.718 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean '_org.springframework.integration.errorLogger'
+2020-07-17 16:39:23.718 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 16:39:23.718 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 0 subscriber(s).
+2020-07-17 16:39:23.718 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:39:23.719 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - Removing {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 16:39:23.719 [SpringContextShutdownHook] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 0 subscriber(s).
+2020-07-17 16:39:23.719 [SpringContextShutdownHook] INFO  o.s.integration.endpoint.EventDrivenConsumer - stopped bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:39:23.721 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-07-17 16:39:23.722 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 16:39:23.722 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-07-17 16:39:23.722 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 16:39:23.723 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 16:39:47.908 [main] INFO  com.xieyue.jwt.JwtApplication - Starting JwtApplication on LAPTOP-HQ6H6U6M with PID 6972 (D:\WorkSpace\JavaSpace\jwt\target\classes started by XieYue in D:\WorkSpace\JavaSpace\jwt)
+2020-07-17 16:39:47.952 [main] INFO  com.xieyue.jwt.JwtApplication - No active profile set, falling back to default profiles: default
+2020-07-17 16:39:50.831 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-17 16:39:50.853 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-17 16:39:50.867 [main] INFO  o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-17 16:39:51.102 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:39:51.126 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:39:51.130 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-17 16:39:51.595 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8010 (http)
+2020-07-17 16:39:51.612 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8010"]
+2020-07-17 16:39:51.613 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-07-17 16:39:51.614 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-07-17 16:39:51.617 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-07-17 16:39:51.617 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-07-17 16:39:51.618 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-07-17 16:39:51.618 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-07-17 16:39:52.721 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-07-17 16:39:52.922 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-07-17 16:39:52.922 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4645 ms
+2020-07-17 16:39:53.150 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-07-17 16:39:53.157 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-07-17 16:39:53.195 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel1, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0], topics=[/topic/test/msg], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel1_, async=true) 
+2020-07-17 16:39:53.317 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 16:39:53.321 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 16:39:53.385 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt, channel channel2, 配置 MqttProperties.Config(url=[tcp://139.159.156.48:1883], timeout=60, kepAliveInterval=60, qos=[0, 0], topics=[/szdx/device/out/#, ndj2], username=szdx, password=szdx123, clientIdPrefix=zkyc_tech_channel2_, async=true) 
+2020-07-17 16:39:53.386 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt Channel Adapter
+2020-07-17 16:39:53.387 [main] INFO  com.xieyue.jwt.config.mqtt.MqttAutoConfiguration - 初始化mqtt MqttPahoMessageHandler
+2020-07-17 16:39:53.485 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-07-17 16:39:53.537 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-07-17 16:39:53.601 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2020-07-17 16:39:54.936 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-17 16:39:54.937 [main] INFO  o.s.integration.channel.PublishSubscribeChannel - Channel 'application.errorChannel' has 1 subscriber(s).
+2020-07-17 16:39:54.937 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean '_org.springframework.integration.errorLogger'
+2020-07-17 16:39:54.937 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqtt2MessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel2' channel
+2020-07-17 16:39:54.937 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel2' has 1 subscriber(s).
+2020-07-17 16:39:54.938 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqtt2MessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:39:54.938 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - Adding {service-activator:mqttMessageHandler.handleMessage.serviceActivator} as a subscriber to the 'channel1' channel
+2020-07-17 16:39:54.938 [main] INFO  o.s.integration.channel.DirectChannel - Channel 'application.channel1' has 1 subscriber(s).
+2020-07-17 16:39:54.938 [main] INFO  o.s.integration.endpoint.EventDrivenConsumer - started bean 'mqttMessageHandler.handleMessage.serviceActivator'
+2020-07-17 16:39:54.938 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:39:54.938 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:39:54.939 [main] INFO  o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started bean 'mqttGateway'
+2020-07-17 16:39:54.939 [main] INFO  o.s.integration.gateway.GatewayProxyFactoryBean - started bean 'mqttGateway'
+2020-07-17 16:39:55.466 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel1MqttChannelAdapter'
+2020-07-17 16:39:55.952 [main] INFO  o.s.i.m.i.MqttPahoMessageDrivenChannelAdapter - started bean 'channel2MqttChannelAdapter'
+2020-07-17 16:39:55.953 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2020-07-17 16:39:55.954 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-07-17 16:39:55.955 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2020-07-17 16:39:55.969 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8010"]
+2020-07-17 16:39:55.998 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8010 (http) with context path ''
+2020-07-17 16:39:56.002 [main] INFO  com.xieyue.jwt.JwtApplication - Started JwtApplication in 10.601 seconds (JVM running for 15.305)
+2020-07-17 16:39:57.498 [MQTT Call: zkyc_tech_channel2_86a3568d1f7b4a37bd135e36430793b5] INFO  o.s.i.handler.support.MessagingMethodInvokerHelper - Overriding default instance of MessageHandlerMethodFactory with provided one.
+2020-07-17 16:39:59.970 [http-nio-8010-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-17 16:39:59.970 [http-nio-8010-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-07-17 16:39:59.995 [http-nio-8010-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms

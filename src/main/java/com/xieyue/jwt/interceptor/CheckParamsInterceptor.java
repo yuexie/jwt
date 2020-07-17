@@ -1,4 +1,4 @@
-package com.zkyc.interceptor;
+package com.xieyue.jwt.interceptor;
 
 /**
  * @program: zkyc-show
@@ -8,13 +8,13 @@ package com.zkyc.interceptor;
  **/
 
 import com.alibaba.fastjson.JSON;
-import com.zkyc.base.ParamsNotNull;
-import com.zkyc.baseframework.common.lang.PageResult;
-import com.zkyc.constants.Const;
-import com.zkyc.enums.ReturnCodeEnum;
+import com.xieyue.jwt.base.ParamsNotNull;
+import com.xieyue.jwt.constants.Const;
+import com.xieyue.jwt.utils.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
@@ -43,14 +43,15 @@ public class CheckParamsInterceptor extends HandlerInterceptorAdapter {
         }
 
         List<String> list = getParamsName((HandlerMethod) handler);
+        System.out.println("list:"+list.toString());
         String method = request.getMethod();
         if (Const.HTTP_GET.equalsIgnoreCase(method)) {
             for (String s : list) {
                 String parameter = request.getParameter(s);
                 if (StringUtils.isEmpty(parameter)) {
-                    PageResult result = new PageResult();
-                    result.setReturncode(ReturnCodeEnum.PARAMETER_MISS.getCode());
-                    result.setMessage("请求参数缺失");
+                    Result result = new Result();
+                    result.setCode("0");
+                    result.setMsg("请求参数缺失");
                     result.setResult("缺少必要的" + s + "值");
                     response.setHeader("Content-type", "application/json;charset=UTF-8");
                     response.setHeader("Access-Control-Allow-Origin", "*");//跨域
@@ -61,7 +62,7 @@ public class CheckParamsInterceptor extends HandlerInterceptorAdapter {
         }else if(Const.HTTP_POST.equalsIgnoreCase(method)){
             //Post请求body的输入流只能读取一次问题
             // 此处读取了request中的inputStream，因为只能被读取一次，后面spring框架无法读取了，所以需要添加wrapper和filter解决流只能读取一次的问题
-            /*
+       
             BufferedReader reader = request.getReader();
             if (reader == null) {
                 log.warn("Request for post method, body is empty, signature verification failed.");
@@ -76,7 +77,6 @@ public class CheckParamsInterceptor extends HandlerInterceptorAdapter {
             Map<String, String> params = JSON.parseObject(jsonParams.toString(), Map.class);
             System.out.println(params);
 
-             */
         }
         return true;
     }
@@ -93,13 +93,13 @@ public class CheckParamsInterceptor extends HandlerInterceptorAdapter {
             if(parameter.isAnnotationPresent(ParamsNotNull.class)){
                 list.add(parameter.getName());
             }
-            if(parameter.isAnnotationPresent(RequestParam.class)){
-                RequestParam annotation = parameter.getDeclaredAnnotation(RequestParam.class);
-                if(annotation == null){ return null; }
-                if(annotation.required()){
-                    list.add(parameter.getName());
-                }
-            }
+//            if(parameter.isAnnotationPresent(RequestBody.class)){
+//                RequestBody annotation = parameter.getDeclaredAnnotation(RequestBody.class);
+//                if(annotation == null){ return null; }
+//                if(annotation.required()){
+//                    list.add(parameter.getName());
+//                }
+//            }
         }
         return list;
     }

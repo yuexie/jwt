@@ -1,7 +1,6 @@
-package com.zkyc.interceptor;
+package com.xieyue.jwt.interceptor;
 
-import com.zkyc.base.PageData;
-import com.zkyc.baseframework.common.util.NetUtils;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpMethod;

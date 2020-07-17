@@ -19,7 +19,7 @@ public class RequestPostFilter implements Filter{
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-
+        System.out.println("RequestPostFilter init...");
     }
 
     @Override

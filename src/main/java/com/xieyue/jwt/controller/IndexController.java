@@ -40,9 +40,14 @@ public class IndexController {
     }
 
     @PostMapping("post")
-    public String getTestPostFunc(@RequestBody @ParamsNotNull Map reqBody){
+    public String getTestPostFunc(@RequestBody Map reqBody){
+
         long time_now = System.currentTimeMillis();
         String res = getDistanceTime(Const.APP_START_TIME,time_now);
+
+        System.out.println(res);
+        System.out.println(reqBody);
+
         return res;
     }
 

@@ -36,7 +36,7 @@ public class RequestPostBodyWrapper extends HttpServletRequestWrapper {
     }
 
     @Override
-    public ServletInputStream getInputStream() throws IOException {
+    public ServletInputStream getInputStream() {
         // 创建字节数组输入流
         final ByteArrayInputStream bais = new ByteArrayInputStream(requestBody);
 

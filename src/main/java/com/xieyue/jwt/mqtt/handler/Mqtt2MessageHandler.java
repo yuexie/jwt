@@ -19,10 +19,11 @@ public class Mqtt2MessageHandler implements MessageHandler {
 	@ServiceActivator(inputChannel = "channel2")
 	@Override
 	public void handleMessage(Message<?> message) throws MessagingException {
-		log.info("[ channel2 ] 主题：{}，QOS:{}，数据：{}",
-				message.getHeaders().get(MqttHeaders.RECEIVED_TOPIC),
-				message.getHeaders().get(MqttHeaders.RECEIVED_QOS),
-				message.getPayload());
+
+//		log.info("[ channel2 ] 主题：{}，QOS:{}，数据：{}",
+//				message.getHeaders().get(MqttHeaders.RECEIVED_TOPIC),
+//				message.getHeaders().get(MqttHeaders.RECEIVED_QOS),
+//				message.getPayload());
 	}
 
 }
