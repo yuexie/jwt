@@ -4,7 +4,9 @@ import com.alibaba.fastjson.JSON;
 import com.xieyue.jwt.base.ParamsNotNull;
 import com.xieyue.jwt.base.ParamsPostWant;
 import com.xieyue.jwt.constants.Const;
+import com.xieyue.jwt.thread.PoolTest;
 import com.xieyue.jwt.utils.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -27,11 +29,16 @@ public class IndexController {
     @Value("${app.start.time}")
     private String appStartTime;
 
+    @Autowired
+    private PoolTest poolTest;
+
 
     @GetMapping("get")
     public String getTestGetFunc(@ParamsNotNull String id){
         long time_now = System.currentTimeMillis();
         String res = getDistanceTime(Const.APP_START_TIME,time_now);
+        poolTest.taskOne();
+
         return res;
     }
 
@@ -44,6 +51,20 @@ public class IndexController {
 
         System.out.println(res);
         System.out.println(reqBody);
+
+        return res;
+    }
+
+    @GetMapping("task")
+    public String getTestTask(){
+        long time_now = System.currentTimeMillis();
+        String res = getDistanceTime(Const.APP_START_TIME,time_now);
+
+        poolTest.taskOne();
+
+        poolTest.taskTwo();
+
+        poolTest.shutdownTask();
 
         return res;
     }
