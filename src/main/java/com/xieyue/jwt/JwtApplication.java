@@ -5,9 +5,11 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import tk.mybatis.spring.annotation.MapperScan;
 
 @ServletComponentScan
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
+@MapperScan("com.xieyue.jwt.dao.mapper")   //tkmybatis的注解
+@SpringBootApplication  //(exclude={DataSourceAutoConfiguration.class})
 public class JwtApplication {
 
     public static void main(String[] args) {
